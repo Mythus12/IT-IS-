@@ -1,0 +1,47 @@
+
+* {
+    background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+
+
+.item1 {
+    margin: 24px;
+    height: 400px;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    position: static;
+}
+
+.item3 {
+    margin: 24px;
+    height: 400px;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.item4 {
+    margin: 24px;
+    height: 400px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item5 {
+    margin: 24px;
+    height: 400px;
+grid-column-start: 3;
+grid-column-end: 5;
+}
+
+.item6 {
+    margin: 24px;
+    height: 400px;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+
